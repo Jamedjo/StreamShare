@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!--  <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical" > -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" android:contentDescription="@string/app_name"/>
+
+	    <TextView
+	        android:id="@+id/uri_textbox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal|center_vertical|left"
+	        android:text="@string/blankuri" />
+
+	    <LinearLayout
+	        android:id="@+id/linearLayout2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center" >
+
+	        <Button
+	            android:id="@+id/bt_share_html"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:enabled="false"
+	            android:text="@string/share_html_button" />
+
+	        <Button
+	            android:id="@+id/bt_share_text"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:enabled="false"
+	            android:text="@string/share_text_button" />
+
+	 <!--   </LinearLayout> -->
+
+    </LinearLayout>
+
+</LinearLayout>
