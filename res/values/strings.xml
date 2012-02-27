@@ -8,16 +8,17 @@
       StreamShare shares streaming video links to other devices. Useful if long-click=>share-url is not possible. Currently supports RTSP.
 \n
 \n    Instructions:        
-\n\t        1. Go to webpage with link to RSTP stream
+\n\t        1. On phone, find a webpage which links to RTSP stream
 \n\t\t        	-e.g. A streaming TV channel, radio station or camera feed
     </string>
     <string name="instructions_b">
   \t        2. Click link and pick StreamShare
-\n\t        3. Share it via email to your PC, or 
-\n\t        4. Using a media player such as VLC you can even record your stream.
+\n\t        3. Share it via email to your PC 
+\n\t        4. Use a media player such as VLC by pasting link starting with rtsp:// 
+\n\t 		5. You may even be able to record your stream.
     </string>
     <string name="instructions_c">
-\n\t	Test video <a href="rtsp://v6.cache3.c.youtube.com/CjYLENy73wIaLQlD-oyezOxv_RMYJCAkFEIJbXYtZ29vZ2xlSARSBXdhdGNoYOzWs82i2eXjTAw=/0/0/0/video.3gp">rtsp://v6.cache3.c.youtube.com/CjYLE....XjTAw=/0/0/0/video.3gp</a>
+\n\t	Test video <a href="rtsp://v6.cache3.c.youtube.com/CjYLENy73wIaLQlD-oyezOxv_RMYJCAkFEIJbXYtZ29vZ2xlSARSBXdhdGNoYOzWs82i2eXjTAw=/0/0/0/video.3gp">Click here (video.3gp) [Valid 27/02/12]</a> 
 \n
     </string>
     <string name="share_html_button">Share link</string>

@@ -4,7 +4,8 @@
     android:layout_height="fill_parent"
     android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp"
+    android:background="@drawable/radial_bg" >
 
     <!--  <LinearLayout
         android:id="@+id/linearLayout1"
@@ -18,13 +19,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_launcher" android:contentDescription="@string/app_name"/>
-
+
 	    <TextView
 	        android:id="@+id/uri_textbox"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:gravity="center_horizontal|center_vertical|left"
-	        android:text="@string/blankuri" />
+	        android:text="@string/blankuri"
+	        android:textColor="#000000" />
 
 	    <LinearLayout
 	        android:id="@+id/linearLayout2"

@@ -3,8 +3,10 @@ package com.jafiki.streamshare;
 import com.jafiki.streamshare.R;
 
 import android.app.Activity;
+import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
+import android.view.Window;
 import android.widget.TextView;
 
 public class StreamShareMain extends Activity {
@@ -19,4 +21,12 @@ public class StreamShareMain extends Activity {
         textcontent.setMovementMethod(LinkMovementMethod.getInstance());
 
     }
+    
+    @Override
+    public void onAttachedToWindow() {
+    	super.onAttachedToWindow();
+    	Window window = getWindow();
+    	window.setFormat(PixelFormat.RGBA_8888);
+    }
+
 }
