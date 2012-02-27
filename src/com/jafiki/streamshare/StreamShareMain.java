@@ -1,11 +1,13 @@
-package com.jafiki.videoshare;
+package com.jafiki.streamshare;
+
+import com.jafiki.streamshare.R;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.widget.TextView;
 
-public class VideoShareMain extends Activity {
+public class StreamShareMain extends Activity {
     /** Called when the activity is first created. */
 	
     @Override

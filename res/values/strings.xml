@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="blankuri">Blank Video Link</string>
-    <string name="app_name">VideoShare</string>
-    <string name="app_name_long">Jafiki VideoShare</string>
+    <string name="blankuri">Blank Link: not valid stream</string>
+    <string name="app_name">StreamShare</string>
+    <string name="app_name_long">Jafiki StreamShare</string>
     <string name="instructions_a">
-      VideoShare shares streaming video links to other devices. Useful if long-click=>share-url is not possible. Currently supports RTSP.
+      StreamShare shares streaming video links to other devices. Useful if long-click=>share-url is not possible. Currently supports RTSP.
 \n
 \n    Instructions:        
-\n\t        1. Go to webpage with link to RSTP video
-\n\t\t        	-e.g. A streaming TV channel or camera feed
+\n\t        1. Go to webpage with link to RSTP stream
+\n\t\t        	-e.g. A streaming TV channel, radio station or camera feed
     </string>
     <string name="instructions_b">
-  \t        2. Click link and pick VideoShare
+  \t        2. Click link and pick StreamShare
 \n\t        3. Share it via email to your PC, or 
 \n\t        4. Using a media player such as VLC you can even record your stream.
     </string>
@@ -23,10 +23,10 @@
     <string name="share_html_button">Share link</string>
     <string name="share_text_button">Share  as text</string>
     
-    <string name="sharetextprefix">"Watch video: "</string>
-    <string name="sharetextpostfix">\ \nShared with Jafiki VideoShare</string>
-    <string name="sharesubject">Video shared via Jafiki VideoShare</string>
-    <string name="share_via">VideoShare via</string>
+    <string name="sharetextprefix">"Watch video stream: "</string>
+    <string name="sharetextpostfix">\ \nShared with Jafiki StreamShare</string>
+    <string name="sharesubject">\nShared via Jafiki StreamShare</string>
+    <string name="share_via">StreamShare via</string>
     <string name="watch_rtsp_alt">Watch Video url rtsp://v6.cache3.c.youtube.com/Cj</string>
     <string name="vlc_alt">VLC => Media => Open Network Stream (Ctrl+N) => Network Protocol => Paste (Ctrl+V)</string>
 

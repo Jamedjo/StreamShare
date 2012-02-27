@@ -1,4 +1,6 @@
-package com.jafiki.videoshare;
+package com.jafiki.streamshare;
+
+import com.jafiki.streamshare.R;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -10,7 +12,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class VideoShareActivity extends Activity {
+public class StreamShareActivity extends Activity {
     /** Called when the activity is first created. */
 	TextView UriTextBox;
 	Button BtShareText;
