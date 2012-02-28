@@ -4,6 +4,7 @@
     <string name="blankuri">Blank Link: not valid stream</string>
     <string name="app_name">StreamShare</string>
     <string name="app_name_long">Jafiki StreamShare</string>
+    <string name="app_main_title">Jafiki StreamShare Guide</string>
     <string name="instructions_a">
       StreamShare shares streaming video links to other devices. Useful if long-click=>share-url is not possible. Currently supports RTSP.
 \n
@@ -22,7 +23,8 @@
 \n
     </string>
     <string name="share_html_button">Share link</string>
-    <string name="share_text_button">Share  as text</string>
+    <string name="share_text_button">Share</string>
+    <string name="back_button">Back</string>
     
     <string name="sharetextprefix">"Watch video stream: "</string>
     <string name="sharetextpostfix">\ \nShared with Jafiki StreamShare</string>

@@ -33,20 +33,26 @@
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
 	        android:gravity="center" >
-
+<!--
 	        <Button
 	            android:id="@+id/bt_share_html"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:enabled="false"
 	            android:text="@string/share_html_button" />
-
+ -->
 	        <Button
 	            android:id="@+id/bt_share_text"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:enabled="false"
 	            android:text="@string/share_text_button" />
+	        
+	        <Button
+	            android:id="@+id/bt_back"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/back_button" />
 
 	 <!--   </LinearLayout> -->
 

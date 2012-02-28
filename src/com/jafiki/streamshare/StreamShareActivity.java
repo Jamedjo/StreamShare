@@ -16,7 +16,8 @@ public class StreamShareActivity extends Activity {
     /** Called when the activity is first created. */
 	TextView UriTextBox;
 	Button BtShareText;
-	Button BtShareHtml;
+	Button BtBack;
+	//Button BtShareHtml;
 	
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -25,22 +26,30 @@ public class StreamShareActivity extends Activity {
         
         UriTextBox = (TextView)findViewById(R.id.uri_textbox);
 
-        BtShareHtml = (Button)this.findViewById(R.id.bt_share_html);
-	    BtShareHtml.setEnabled(false);
-        BtShareHtml.setOnClickListener(new OnClickListener() {
-            public void onClick(View v) {
-            	String body =  getString(R.string.sharetextprefix) + "<a href='" + UriTextBox.getText() + "'>" + UriTextBox.getText() + "</a>" + getString(R.string.sharetextpostfix);
-            	share("text/html",body,true);
-            }
-          });
+        //BtShareHtml = (Button)this.findViewById(R.id.bt_share_html);
+	    //BtShareHtml.setEnabled(false);
+        //BtShareHtml.setOnClickListener(new OnClickListener() {
+        //    public void onClick(View v) {
+        //    	String body =  getString(R.string.sharetextprefix) + "<a href='" + UriTextBox.getText() + "'>" + UriTextBox.getText() + "</a>" + getString(R.string.sharetextpostfix);
+        //    	share("text/html",body,true);
+        //    }
+        //  });
         //BtShareHtml.setVisibility(View.GONE);
         
+
         BtShareText = (Button)this.findViewById(R.id.bt_share_text);
 	    BtShareText.setEnabled(false);
         BtShareText.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {
             	String body = getString(R.string.sharetextprefix) + UriTextBox.getText() + getString(R.string.sharetextpostfix);
             	share("text/plain",body,false);
+            }
+          });
+        
+        BtBack = (Button)this.findViewById(R.id.bt_back);
+	    BtBack.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {
+            	finish();
             }
           });
         
@@ -51,7 +60,7 @@ public class StreamShareActivity extends Activity {
 	      String sURI = uri.toString();
 	      UriTextBox.setText(sURI);
 	      BtShareText.setEnabled(true);
-	      BtShareHtml.setEnabled(true);
+	      //BtShareHtml.setEnabled(true);
 	    }
      
     }
