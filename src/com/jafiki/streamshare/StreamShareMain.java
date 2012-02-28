@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.text.method.LinkMovementMethod;
 import android.view.Window;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class StreamShareMain extends Activity {
     /** Called when the activity is first created. */
@@ -25,8 +26,14 @@ public class StreamShareMain extends Activity {
     @Override
     public void onAttachedToWindow() {
     	super.onAttachedToWindow();
+    	try{
     	Window window = getWindow();
     	window.setFormat(PixelFormat.RGBA_8888);
+    	} catch (Exception e)
+    	{
+    		//TODO: catch
+    		Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT);
+    	}
     }
 
 }
