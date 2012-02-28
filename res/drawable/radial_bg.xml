@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-<gradient
-    android:startColor="#e6f7ff"
-    android:endColor="#a8d3f4"
-    android:gradientRadius="326"
-    android:type="radial"/>
-</shape>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+        <shape>
+			<gradient
+			    android:startColor="#e6f7ff"
+			    android:endColor="#a8d3f4"
+			    android:gradientRadius="326"
+			    android:type="radial"
+       android:centerX="0.5"
+       android:centerY="0.5"/>
+        </shape>
+</item>
+<item>
+        <bitmap
+            android:src="@drawable/bg_paven"
+        	android:tileMode="repeat"/>
+</item>
+</layer-list>
