@@ -1,36 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="blankuri">Blank Link: not valid stream</string>
     <string name="app_name">StreamShare</string>
     <string name="app_name_long">Jafiki StreamShare</string>
     <string name="app_main_title">Jafiki StreamShare Guide</string>
-    <string name="instructions_a">
-      StreamShare shares streaming video links to other devices. Useful if long-click=>share-url is not possible. Currently supports RTSP.
-\n
-\n    Instructions:        
-\n\t        1. On phone, find a webpage which links to RTSP stream
-\n\t\t        	-e.g. A streaming TV channel, radio station or camera feed
-    </string>
-    <string name="instructions_b">
-  \t        2. Click link and pick StreamShare
-\n\t        3. Share it via email to your PC 
-\n\t        4. Use a media player such as VLC by pasting link starting with rtsp:// 
-\n\t 		5. You may even be able to record your stream.
-    </string>
-    <string name="instructions_c">
-\n\t	Test video <a href="rtsp://v6.cache3.c.youtube.com/CjYLENy73wIaLQlD-oyezOxv_RMYJCAkFEIJbXYtZ29vZ2xlSARSBXdhdGNoYOzWs82i2eXjTAw=/0/0/0/video.3gp">Click here (video.3gp) [Valid 27/02/12]</a> 
-\n
-    </string>
+
+    <string name="blankuri">Blank Link: not valid stream</string>
     <string name="share_html_button">Share link</string>
     <string name="share_text_button">Share</string>
     <string name="back_button">Back</string>
     
+    <string name="share_via">StreamShare via</string>
     <string name="sharetextprefix">"Watch video stream: "</string>
     <string name="sharetextpostfix">\ \nShared with Jafiki StreamShare</string>
     <string name="sharesubject">\nShared via Jafiki StreamShare</string>
-    <string name="share_via">StreamShare via</string>
+    
     <string name="watch_rtsp_alt">Watch Video url rtsp://v6.cache3.c.youtube.com/Cj</string>
     <string name="vlc_alt">VLC => Media => Open Network Stream (Ctrl+N) => Network Protocol => Paste (Ctrl+V)</string>
 
+    
+    <string name="about_text">
+        StreamShare is a lightweight tool for managing RTSP links to streaming content. Share with your laptop or friends. Especially useful when the video automatically redirects you to some kind of video player.
+    </string>
+    
+    <string name="instructions_text">
+		1. On phone, find a webpage which links to RTSP stream.  Can be a streaming TV channel, radio station or camera feed
+    </string>
+    
+    <string name="instructions_b">
+		2. Click link and pick StreamShare
+		\n3. Share it via email to your PC 
+    </string>
+    
+    <string name="view_pc_instructions_a">
+    	-Use a media player such as VLC by pasting link starting with rtsp:// 
+	  \n-You may even be able to record your stream.
+    </string>
+    
+    <string name="instructions_c">
+		-Valid 28/02/12: <a href="rtsp://v6.cache3.c.youtube.com/CjYLENy73wIaLQlD-oyezOxv_RMYJCAkFEIJbXYtZ29vZ2xlSARSBXdhdGNoYOzWs82i2eXjTAw=/0/0/0/video.3gp">rtsp://video.3gp</a> 
+    </string>
+    
 </resources>

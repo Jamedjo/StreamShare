@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_link_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instructions"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+	<LinearLayout
+	    android:id="@+id/test_link_contents"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="25dp"
+	    android:orientation="vertical" >
+    
+	    <TextView
+	        android:id="@+id/instructions_textbox"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/instructions_text" />
+		
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:contentDescription="@string/watch_rtsp_alt"
+	        android:src="@drawable/watch_rtsp" />
+	
+	    <TextView
+	        android:id="@+id/instructions_textbox_b"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/instructions_b" />
+    
+	</LinearLayout>
+</LinearLayout>
