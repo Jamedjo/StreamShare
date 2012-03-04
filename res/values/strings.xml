@@ -17,6 +17,14 @@
     
     <string name="watch_rtsp_alt">Watch Video url rtsp://v6.cache3.c.youtube.com/Cj</string>
     <string name="vlc_alt">VLC => Media => Open Network Stream (Ctrl+N) => Network Protocol => Paste (Ctrl+V)</string>
+    
+    <string name="record_title" >Record with VLC</string>
+    <string name="record_text" >
+        -Turn on advanced controls from view menu
+      \n-Record button appears at bottom of window
+      \n-VLC will save to your default folder
+    </string>
+    <string name="record_vlc_alt">VLC => View => Advanced Controls => Click Record => Saves to videos folder</string>
 
     
     <string name="about_text">
@@ -24,21 +32,32 @@
     </string>
     
     <string name="instructions_text">
-		1. On phone, find a webpage which links to RTSP stream.  Can be a streaming TV channel, radio station or camera feed
+		-On phone, find a webpage which links to RTSP stream.  Can be a streaming TV channel, radio station or camera feed
     </string>
     
     <string name="instructions_b">
-		2. Click link and pick StreamShare
-		\n3. Share it via email to your PC 
+		-Click link and pick StreamShare 
     </string>
     
     <string name="view_pc_instructions_a">
-    	-Use a media player such as VLC by pasting link starting with rtsp:// 
-	  \n-You may even be able to record your stream.
+    	-Use a media player such as VLC 
+	  \n-Pasting entire link starting with rtsp://
     </string>
     
-    <string name="instructions_c">
-		-StreamShare this link <a href="rtsp://v6.cache3.c.youtube.com/CjYLENy73wIaLQlD-oyezOxv_RMYJCAkFEIJbXYtZ29vZ2xlSARSBXdhdGNoYOzWs82i2eXjTAw=/0/0/0/video.3gp">rtsp://video.3gp</a> 
+    <string name="test_link_text">
+		-StreamShare this link <a href="rtsp://v2.cache8.c.youtube.com/CjYLENy73wIaLQnZzHjwxWO8IBMYJCAkFEIJbXYtZ29vZ2xlSARSBXdhdGNoYOzWs82i2eXjTAw=/0/0/0/video.3gp">rtsp://video.3gp</a> 
     </string>
+    
+    <string name="share_link_text">
+		-Send link via email to another device
+	  \n-Copy the entire link to clipboard
+	  \n-Play in your favourite player
+    </string>
+	<string name="test_video_title">Test Video</string>
+	<string name="watch_on_pc_title">3. Watch on PC</string>
+	<string name="about_title">About</string>
+	<string name="click_instructions_title">1. Click RTSP link</string>
+	<string name="copy_image_alt_text">select entire link and copy to clipboard</string>
+	<string name="share_and_copy_title">2. Share link</string>
     
 </resources>

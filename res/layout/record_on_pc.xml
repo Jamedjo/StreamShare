@@ -6,25 +6,25 @@
     android:layout_marginBottom="20dip" >
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/watch_on_pc_title"
+        android:text="@string/record_title"
         android:textAppearance="?android:attr/textAppearanceMedium" />
     
     <TextView
-	        android:id="@+id/view_pc_instructions_textbox_a"
+	        android:id="@+id/view_pc_instructions_textbox_a3"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:text="@string/view_pc_instructions_a"
-	        android:paddingLeft="15dp"
+	        android:text="@string/record_text"
+	        android:paddingLeft="10dp"
     		android:layout_marginBottom="5dip" />
     
 	    <ImageView
-	        android:id="@+id/imageView2"
+	        android:id="@+id/imageVi_ew23"
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
-	        android:src="@drawable/vlc"
-	        android:contentDescription="@string/vlc_alt"/>
+	        android:src="@drawable/record_vlc"
+	        android:contentDescription="@string/record_vlc_alt"/>
 	    
 </LinearLayout>

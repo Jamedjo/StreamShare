@@ -11,14 +11,14 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test Video"
+        android:text="@string/test_video_title"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:id="@+id/instructions_textbox_c"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingLeft="25dp"
-        android:text="@string/instructions_c" />
+        android:paddingLeft="15dp"
+        android:text="@string/test_link_text" />
 	
 </LinearLayout>
