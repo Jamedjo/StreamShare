@@ -12,19 +12,14 @@
         android:padding="10dp"
         android:paddingBottom="20dp" >
 
-        <ExpandableListView
-            android:id="@+id/expandableListView1"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
-        </ExpandableListView>
-
         <include layout="@layout/about" />
-        <include layout="@layout/instructions" />
-
-
-        <include layout="@layout/view_on_pc" />
+        <include layout="@layout/instructions"
+         android:layout_marginTop="94dp"
+                  android:layout_marginBottom="20dip" />
 
         <include layout="@layout/test_link" />
+
+        <include layout="@layout/view_on_pc" />
         
     </LinearLayout>
 

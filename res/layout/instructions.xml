@@ -4,7 +4,8 @@
     android:id="@+id/test_link_layout"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:layout_marginBottom="20dip" >
 
     <TextView
         android:id="@+id/textView1"
