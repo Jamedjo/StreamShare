@@ -41,7 +41,7 @@
     
     <string name="view_pc_instructions_a">
     	-Use a media player such as VLC 
-	  \n-Pasting entire link starting with rtsp://
+	  \n-Paste entire link starting with rtsp://
     </string>
     
     <string name="test_link_text">
